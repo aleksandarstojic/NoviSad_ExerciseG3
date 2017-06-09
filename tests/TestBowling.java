@@ -19,6 +19,10 @@ public class TestBowling {
 		assertEquals(actual, expected);
 	}
 	
+	@Test
+	public void TestIfItIsASpare() {
+		Frame frame = new Frame(5,5);
+	}
 	
 	
 	
