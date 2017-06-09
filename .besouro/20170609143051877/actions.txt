@@ -34,3 +34,7 @@ EditAction 1497012396954 TestBowling.java 485 2 4 0
 EditAction 1497012406153 TestBowling.java 514 2 4 0
 EditAction 1497012457839 BowlingGame.java 744 4 2 0
 EditAction 1497012479466 BowlingGame.java 809 4 2 0
+CompilationAction 1497012482631 BowlingGame.java
+CompilationAction 1497012495034 BowlingGame.java
+CompilationAction 1497012495260 BowlingGame.java
+EditAction 1497012497373 BowlingGame.java 834 4 2 0
