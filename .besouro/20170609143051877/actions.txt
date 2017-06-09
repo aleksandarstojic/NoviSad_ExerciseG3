@@ -125,3 +125,8 @@ EditAction 1497013641614 BowlingGame.java 877 4 4 0
 UnitTestCaseAction 1497013649446 TestBowling.java OK
 UnitTestSessionAction 1497013649448 TestBowling.java OK
 EditAction 1497013709299 TestBowling.java 1495 6 20 4
+UnitTestCaseAction 1497013712811 TestBowling.java OK
+UnitTestSessionAction 1497013712812 TestBowling.java OK
+RefactoringAction 1497013794867 TestBowling.java ADD void TestIfThereIsA FIELD
+RefactoringAction 1497013798379 TestBowling.java RENAME TestIfThereIsA=>void TestIfThereIsABonusThrow() METHOD
+EditAction 1497013812345 TestBowling.java 1605 7 21 4

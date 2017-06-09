@@ -47,6 +47,12 @@ public class TestBowling {
 		int expected = 20; // 10 frames, 3 points each
 		assertEquals(actual, expected);
 	}
+	
+	@Test
+	public void TestIfThereIsABonusThrow() {
+		BowlingGame bowlingGame = new BowlingGame();
+		
+	}
 	/// BOWLING GAME TESTS ///
 	
 	
