@@ -106,3 +106,6 @@ RefactoringAction 1497013200828 TestBowling.java ADD void TestIfItIsAStrike() ME
 EditAction 1497013229353 TestBowling.java 1117 5 14 3
 EditAction 1497013232860 TestBowling.java 1120 5 14 3
 EditAction 1497013249905 TestBowling.java 1146 5 14 3
+CompilationAction 1497013251896 TestBowling.java
+RefactoringAction 1497013267955 TestBowling.java ADD void TestIfTheScoreIsCalculatedCorrectly() METHOD
+EditAction 1497013269403 TestBowling.java 1195 6 14 3
