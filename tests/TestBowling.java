@@ -43,6 +43,8 @@ public class TestBowling {
 		BowlingGame bowlingGame = new BowlingGame();
 		Frame frame = new Frame(1,2);	
 		addFrames(bowlingGame, frame, 10);
+		int actual = bowlingGame.score();
+		int expected = 30; // 10 times 3
 	}
 	/// BOWLING GAME TESTS ///
 	
