@@ -20,7 +20,7 @@ public class Frame {
 
 	//returns the score of a single frame
 	public int score(){
-		int score = this.firstThrow + this.secondThrow;
+		int score = getFirstThrow + this.secondThrow;
 		
 		return score;
 	}
@@ -37,7 +37,7 @@ public class Frame {
 	//return whether a frame is a spare or not
 	public boolean isSpare(){
 		
-		if (getFirstThrow() + getSecondsThrow() == 10 && getFirstThrow() != 10)
+		if (getFirstThrow() + getSecondThrow() == 10 && getFirstThrow() != 10)
 			return true;
 		else
 			return false;
