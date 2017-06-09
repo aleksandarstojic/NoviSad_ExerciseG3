@@ -53,7 +53,7 @@ public class TestBowling {
 		BowlingGame bowlingGame = new BowlingGame();
 		Frame frame = new Frame(0,2);	
 		addFrames(bowlingGame, frame, 8);
-		Frame frame1 = new Frame (10,0);
+		Frame frame1 = new Frame (1,0);
 		bowlingGame.addFrame(frame1);
 		int actual = bowlingGame.getFrame(8);
 		int expected = 10; // because I want the last frame's score and it should be 10
