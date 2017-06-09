@@ -49,11 +49,20 @@ public class TestBowling {
 	}
 	
 	@Test
+	public void TestIfTheFramesScoreIsReturnedProperly() throws BowlingException {
+		BowlingGame bowlingGame = new BowlingGame();
+		Frame frame = new Frame(0,2);	
+		addFrames(bowlingGame, frame, 10);
+		
+	}
+	
+	/*@Test
 	public void TestIfThereIsABonusThrow() throws BowlingException {
 		BowlingGame bowlingGame = new BowlingGame();
 		Frame frame = new Frame(0,2);	
 		addFrames(bowlingGame, frame, 10);
-	}
+		bowlingGame.
+	}*/
 	/// BOWLING GAME TESTS ///
 	
 	

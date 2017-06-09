@@ -136,3 +136,10 @@ CompilationAction 1497013839844 TestBowling.java
 RefactoringAction 1497013874347 BowlingGame.java ADD void getFrame() METHOD
 EditAction 1497013878167 BowlingGame.java 917 5 4 0
 EditAction 1497013907190 BowlingGame.java 978 5 4 0
+RefactoringAction 1497013914590 TestBowling.java REMOVE TestIfThereIsABonusThrow() METHOD
+RefactoringAction 1497013914592 TestBowling.java REMOVE addFrames(BowlingGame, Frame, int) METHOD
+RefactoringAction 1497013917120 TestBowling.java ADD void addFrames(BowlingGame, Frame, int) METHOD
+RefactoringAction 1497013926156 TestBowling.java ADD void TestIf FIELD
+RefactoringAction 1497013927667 TestBowling.java RENAME TestIf=>void TestIfThe FIELD
+RefactoringAction 1497013942198 TestBowling.java RENAME TestIfThe=>void TestIfTheFramesScoreIsReturnedProperly() METHOD
+EditAction 1497013966577 TestBowling.java 1937 7 23 4
