@@ -78,7 +78,7 @@ public class TestBowling {
 		BowlingGame bowlingGame = new BowlingGame();
 		Frame frame = new Frame(0,2);	
 		addFrames(bowlingGame, frame, 9);
-		Frame frame1 = new Frame(6,3);
+		Frame frame1 = new Frame(6,4);
 		bowlingGame.addFrame(frame1);
 		boolean check = bowlingGame.getFrame(9).isSpare();
 		assertTrue(check);	
