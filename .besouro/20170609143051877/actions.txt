@@ -207,3 +207,4 @@ EditAction 1497014597131 TestBowling.java 2936 9 41 6
 RefactoringAction 1497014700157 TestBowling.java RENAME TestIfThereIsABonusThrow()=>void TestIfThereIsABonusThrow_Spare() METHOD
 EditAction 1497014703454 TestBowling.java 2918 9 40 6
 EditAction 1497014808110 TestBowling.java 2984 9 42 6
+EditAction 1497014834628 TestBowling.java 3060 9 44 7
