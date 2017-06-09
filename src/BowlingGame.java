@@ -43,6 +43,8 @@ public class BowlingGame {
 		
 		int score = 0;
 		
+		///// NISAM STIGAO DA REALIZUJEM SABIRANJE SA BONUSIMA
+		/*
 		for(int i = 0; i < frames.size(); i++)
 		{
 			score += frames.get(i).score();
@@ -57,13 +59,13 @@ public class BowlingGame {
 			if(frames.get(i).isSpare() && i <= 8)
 				score = score + frames.get(i).getFirstThrow();
 		}
+		*/
+	///// NISAM STIGAO DA REALIZUJEM SABIRANJE SA BONUSIMA
 		
-		
-		/*
 		for(Frame f : frames)
 		{
 			score += f.score();
-		}*/
+		}
 		
 		return score;
 	}

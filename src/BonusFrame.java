@@ -4,7 +4,7 @@ public class BonusFrame extends Frame {
 	private int thirdThrow;
 	
 	
-	public getThirdTrhow()
+	public int getThirdTrhow()
 	{
 		return thirdThrow;
 	}

@@ -263,3 +263,6 @@ FileOpenedAction 1497015913772 BonusFrame.java 34 0 0 0
 RefactoringAction 1497015935602 BonusFrame.java ADD int third FIELD
 RefactoringAction 1497015945242 BonusFrame.java RENAME third=>int thirdThrow FIELD
 EditAction 1497015951210 BonusFrame.java 136 1 1 0
+CompilationAction 1497015953523 BonusFrame.java
+CompilationAction 1497015956195 BonusFrame.java
+EditAction 1497015995334 BowlingGame.java 1822 6 7 0
