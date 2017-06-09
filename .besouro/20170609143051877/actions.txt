@@ -3,3 +3,11 @@ RefactoringAction 1497011894619 BowlingException.java ADD BowlingException() MET
 RefactoringAction 1497011900154 BowlingException.java RENAME BowlingException()=>BowlingException(String) METHOD
 EditAction 1497011904666 BowlingException.java 131 1 1 0
 EditAction 1497011920994 BowlingException.java 174 1 1 0
+RefactoringAction 1497012048752 TestBowling.java RENAME test()=>void Test() METHOD
+RefactoringAction 1497012053277 TestBowling.java RENAME Test()=>void TestIfFrame() METHOD
+RefactoringAction 1497012055289 TestBowling.java RENAME TestIfFrame()=>void TestIfFrameCountIs() METHOD
+RefactoringAction 1497012057300 TestBowling.java RENAME TestIfFrameCountIs()=>void TestIfFrameCo() METHOD
+RefactoringAction 1497012059319 TestBowling.java RENAME TestIfFrameCo()=>void TestIfFrameCountIs() METHOD
+RefactoringAction 1497012069343 TestBowling.java RENAME TestIfFrameCountIs()=>void Adding() METHOD
+RefactoringAction 1497012072353 TestBowling.java RENAME Adding()=>void AddingTheFrameTest() METHOD
+EditAction 1497012082396 TestBowling.java 195 1 1 0
