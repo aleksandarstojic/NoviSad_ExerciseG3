@@ -68,3 +68,6 @@ CompilationAction 1497012899396 TestBowling.java
 UnitTestCaseAction 1497012904008 TestBowling.java FAIL
 UnitTestSessionAction 1497012904010 TestBowling.java FAIL
 EditAction 1497012962505 Frame.java 836 7 8 0
+UnitTestCaseAction 1497012968883 TestBowling.java OK
+UnitTestSessionAction 1497012968885 TestBowling.java OK
+EditAction 1497012975899 TestBowling.java 869 4 11 2
