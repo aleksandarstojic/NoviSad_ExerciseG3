@@ -56,7 +56,7 @@ public class TestBowling {
 		Frame frame1 = new Frame (10,0);
 		bowlingGame.addFrame(frame1);
 		int actual = bowlingGame.getFrame();
-		int expected = 10 // because I want the last frame's score and it should be 10
+		int expected = 10; // because I want the last frame's score and it should be 10
 		assertEquals(actual, expected);
 	}
 	
