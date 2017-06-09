@@ -63,3 +63,8 @@ RefactoringAction 1497012847692 TestBowling.java ADD void TestIfItIsA FIELD
 RefactoringAction 1497012852708 TestBowling.java RENAME TestIfItIsA=>void TestIfItIsASpare() METHOD
 EditAction 1497012863242 TestBowling.java 810 4 9 1
 EditAction 1497012888740 TestBowling.java 870 4 11 2
+CompilationAction 1497012890722 TestBowling.java
+CompilationAction 1497012899396 TestBowling.java
+UnitTestCaseAction 1497012904008 TestBowling.java FAIL
+UnitTestSessionAction 1497012904010 TestBowling.java FAIL
+EditAction 1497012962505 Frame.java 836 7 8 0
