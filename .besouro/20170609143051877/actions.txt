@@ -38,3 +38,15 @@ CompilationAction 1497012482631 BowlingGame.java
 CompilationAction 1497012495034 BowlingGame.java
 CompilationAction 1497012495260 BowlingGame.java
 EditAction 1497012497373 BowlingGame.java 834 4 2 0
+CompilationAction 1497012499457 TestBowling.java
+CompilationAction 1497012510187 TestBowling.java
+CompilationAction 1497012510421 TestBowling.java
+CompilationAction 1497012520693 TestBowling.java
+CompilationAction 1497012520922 TestBowling.java
+CompilationAction 1497012528537 TestBowling.java
+UnitTestCaseAction 1497012535871 TestBowling.java OK
+UnitTestSessionAction 1497012535874 TestBowling.java OK
+RefactoringAction 1497012616704 TestBowling.java ADD void TestIf FIELD
+RefactoringAction 1497012620719 TestBowling.java RENAME TestIf=>void TestIfScoreIsCorrect FIELD
+RefactoringAction 1497012623234 TestBowling.java RENAME TestIfScoreIsCorrect=>void TestIfScoreIsCorrect() METHOD
+EditAction 1497012623726 TestBowling.java 616 3 4 0
