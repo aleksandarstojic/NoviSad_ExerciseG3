@@ -47,10 +47,15 @@ public class BowlingGame {
 		{
 			score += frames.get(i).score();
 			
+			// Bonus for the strike
 			if(frames.get(i).isStrike() && i <= 7)
 				score = score + frames.get(i+1).score() + frames.get(i+2).score();
 			else if (frames.get(i).isStrike() && i == 8)
 				score = score + frames.get(i+1).score();
+			
+			// Bonus for the spare
+			if(frames.get(i).isSpare() && i <= 8)
+				score = score + frames.get(i).getFirstThrow();
 		}
 		
 		
