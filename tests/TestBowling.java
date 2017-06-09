@@ -4,11 +4,13 @@ import org.junit.Test;
 
 public class TestBowling {
 
-	@Test
+	@Test(expected=BowlingException.class)
 	public void AddingTheFrameTest() {
 		BowlingGame bowlingGame = new BowlingGame();
 		Frame frame = new Frame();
 		bowlingGame.addFrame(frame);
+		
+		
 		addFrames(bowlingGame, frame);
 		
 	}
