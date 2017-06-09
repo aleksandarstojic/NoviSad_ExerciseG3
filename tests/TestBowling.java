@@ -41,7 +41,7 @@ public class TestBowling {
 	@Test
 	public void TestIfTheScoreIsCalculatedCorrectly() throws BowlingException {
 		BowlingGame bowlingGame = new BowlingGame();
-		Frame frame = new Frame(0,3);	
+		Frame frame = new Frame(0,2);	
 		addFrames(bowlingGame, frame, 10);
 		int actual = bowlingGame.score();
 		int expected = 20; 		// 10 frames, 2 points each (newbie)
