@@ -9,7 +9,7 @@ public class TestBowling {
 	public void TestIfScoreIsCorrect() {
 		Frame frame = new Frame(3,5);
 		int actual = frame.score();
-		int expected = 8;
+		int expected = 8; // score 3 in first throw + 5 in second
 		assertEquals(actual, expected);
 	}
 	
@@ -45,6 +45,7 @@ public class TestBowling {
 		addFrames(bowlingGame, frame, 10);
 		int actual = bowlingGame.score();
 		int expected = 30; // 10 frames, 3 points each
+		assertEquals(actual, expected);
 	}
 	/// BOWLING GAME TESTS ///
 	
