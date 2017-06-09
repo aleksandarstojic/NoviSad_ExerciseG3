@@ -28,7 +28,7 @@ public class Frame {
 	//returns whether the frame is a strike or not
 	public boolean isStrike(){
 
-		if(getFirstThrow == 10)
+		if(getFirstThrow() == 10)
 			return true;
 		else
 			return false;
@@ -37,7 +37,7 @@ public class Frame {
 	//return whether a frame is a spare or not
 	public boolean isSpare(){
 		
-		if (this.firstThrow + this.secondThrow == 10 && this.firstThrow != 10)
+		if (getFirstThrow() + getSecondsThrow() == 10 && getFirstThrow() != 10)
 			return true;
 		else
 			return false;
