@@ -172,3 +172,8 @@ UnitTestSessionAction 1497014155839 TestBowling.java OK
 EditAction 1497014187387 TestBowling.java 2203 7 28 5
 RefactoringAction 1497014192874 TestBowling.java ADD void TestIfThereIsABonusThrow() METHOD
 EditAction 1497014195003 TestBowling.java 2199 8 28 5
+CompilationAction 1497014196809 TestBowling.java
+CompilationAction 1497014196811 TestBowling.java
+CompilationAction 1497014238548 TestBowling.java
+CompilationAction 1497014238550 TestBowling.java
+EditAction 1497014242432 TestBowling.java 2211 8 32 5
