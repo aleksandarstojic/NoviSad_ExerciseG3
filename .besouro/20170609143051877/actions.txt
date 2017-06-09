@@ -80,3 +80,6 @@ RefactoringAction 1497013006572 TestBowling.java ADD void TestIfItIs FIELD
 RefactoringAction 1497013011085 TestBowling.java RENAME TestIfItIs=>void TestIfItIsAStrike() METHOD
 EditAction 1497013020085 TestBowling.java 1008 5 14 3
 EditAction 1497013026800 TestBowling.java 1009 5 14 3
+UnitTestCaseAction 1497013032084 TestBowling.java FAIL
+UnitTestSessionAction 1497013032086 TestBowling.java FAIL
+EditAction 1497013052046 Frame.java 870 7 8 0
