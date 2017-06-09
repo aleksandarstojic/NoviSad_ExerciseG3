@@ -53,7 +53,7 @@ public class TestBowling {
 		BowlingGame bowlingGame = new BowlingGame();
 		Frame frame = new Frame(0,2);	
 		addFrames(bowlingGame, frame, 9);
-		
+		Frame frame1 = new Frame (10,0);
 	}
 	
 	/*@Test

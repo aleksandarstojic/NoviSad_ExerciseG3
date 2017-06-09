@@ -144,3 +144,4 @@ RefactoringAction 1497013927667 TestBowling.java RENAME TestIf=>void TestIfThe F
 RefactoringAction 1497013942198 TestBowling.java RENAME TestIfThe=>void TestIfTheFramesScoreIsReturnedProperly() METHOD
 EditAction 1497013966577 TestBowling.java 1937 7 23 4
 EditAction 1497013980032 TestBowling.java 1936 7 23 4
+EditAction 1497013991993 TestBowling.java 1968 7 24 4
