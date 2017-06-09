@@ -2,3 +2,4 @@ FileOpenedAction 1497011452478 TestBowling.java 165 1 1 0
 RefactoringAction 1497011894619 BowlingException.java ADD BowlingException() METHOD
 RefactoringAction 1497011900154 BowlingException.java RENAME BowlingException()=>BowlingException(String) METHOD
 EditAction 1497011904666 BowlingException.java 131 1 1 0
+EditAction 1497011920994 BowlingException.java 174 1 1 0
