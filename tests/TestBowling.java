@@ -39,8 +39,7 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void TestIfTheScoreIsCalculatedCorrectly()
-	{
+	public void TestIfTheScoreIsCalculatedCorrectly() {
 		
 	}
 	/// BOWLING GAME TESTS ///
