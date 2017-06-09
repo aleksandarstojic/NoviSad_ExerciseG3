@@ -21,9 +21,9 @@ public class BowlingGame {
 	}
 	
 	// returns the score of the frame with the specified index
-	public void getFrame()
+	public int getFrame(int index)
 	{
-		
+		return frames.get(index).score();
 	}
 	
 	// Sets the bonus throws at the end of the game
