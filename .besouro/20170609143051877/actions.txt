@@ -52,3 +52,4 @@ RefactoringAction 1497012623234 TestBowling.java RENAME TestIfScoreIsCorrect=>vo
 EditAction 1497012623726 TestBowling.java 616 3 4 0
 EditAction 1497012637344 TestBowling.java 641 3 5 0
 EditAction 1497012674688 TestBowling.java 658 3 6 0
+EditAction 1497012697850 TestBowling.java 692 3 7 0
