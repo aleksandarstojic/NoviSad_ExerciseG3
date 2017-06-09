@@ -44,7 +44,7 @@ public class TestBowling {
 		Frame frame = new Frame(0,2);	
 		addFrames(bowlingGame, frame, 10);
 		int actual = bowlingGame.score();
-		int expected = 20; 		// 10 frames, 2 points each
+		int expected = 20; 		// 10 frames, 2 points each (newbie(
 		assertEquals(actual, expected);
 	}
 	
