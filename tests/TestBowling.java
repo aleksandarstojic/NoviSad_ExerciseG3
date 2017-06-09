@@ -80,8 +80,8 @@ public class TestBowling {
 		addFrames(bowlingGame, frame, 9);
 		Frame frame1 = new Frame(6,4);
 		bowlingGame.addFrame(frame1);
-		boolean check = bowlingGame.getFrame(9).isSpare();
-		assertTrue(check);	
+		boolean check = bowlingGame.getFrame(9).isSpare();	// This should be true because we have instantiated the last frame with the (6,4) score
+		assertTrue(check);									// which is a Spare
 	}
 	/// BOWLING GAME TESTS ///
 	
