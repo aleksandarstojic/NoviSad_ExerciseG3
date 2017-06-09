@@ -9,11 +9,21 @@ public class TestBowling {
 		BowlingGame bowlingGame = new BowlingGame();
 		Frame frame = new Frame();	
 		addFrames(bowlingGame, frame, 15);
-		
 	}
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	/// HELPER METHODS ///
+	
 	public void addFrames(BowlingGame bowlingGame, Frame frame, int count)
 	{
 		for (int i=0; i<count; i++)
