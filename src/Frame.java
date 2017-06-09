@@ -20,7 +20,7 @@ public class Frame {
 
 	//returns the score of a single frame
 	public int score(){
-		int score = getFirstThrow + getSecondThrow();
+		int score = getFirstThrow() + getSecondThrow();
 		
 		return score;
 	}
