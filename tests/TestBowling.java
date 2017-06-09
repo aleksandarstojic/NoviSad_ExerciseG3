@@ -9,7 +9,7 @@ public class TestBowling {
 	public void TestIfScoreIsCorrect() {
 		Frame frame = new Frame(3,5);
 		int actual = frame.score();
-		int expected = 8; // score 3 in first throw + 5 in second
+		int expected = 8; 		// score 3 in first throw + 5 in second
 		assertEquals(actual, expected);
 	}
 	
@@ -44,7 +44,7 @@ public class TestBowling {
 		Frame frame = new Frame(0,2);	
 		addFrames(bowlingGame, frame, 10);
 		int actual = bowlingGame.score();
-		int expected = 20; // 10 frames, 3 points each
+		int expected = 20; 		// 10 frames, 3 points each
 		assertEquals(actual, expected);
 	}
 	
@@ -56,7 +56,7 @@ public class TestBowling {
 		Frame frame1 = new Frame (10,0);
 		bowlingGame.addFrame(frame1);
 		int actual = bowlingGame.getFramesScore(9);
-		int expected = 10; // because I want the last frame's score and it should be 10 because I've instantiated it with score 10
+		int expected = 10; 		// because I want the last frame's score and it should be 10 because I've instantiated it with score 10
 		assertEquals(actual, expected);
 	}
 	
