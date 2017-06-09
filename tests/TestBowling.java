@@ -74,11 +74,11 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void TestIfThereIsABonusThrow() throws BowlingException {
+	public void TestIfThereIsABonusThrow_Spare() throws BowlingException {
 		BowlingGame bowlingGame = new BowlingGame();
 		Frame frame = new Frame(0,2);	
 		addFrames(bowlingGame, frame, 10);
-		bowlingGame.getFrame(9);
+		
 	}
 	/// BOWLING GAME TESTS ///
 	
