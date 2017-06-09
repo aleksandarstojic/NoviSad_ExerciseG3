@@ -52,7 +52,7 @@ public class TestBowling {
 	public void TestIfTheFramesScoreIsReturnedProperly() throws BowlingException {
 		BowlingGame bowlingGame = new BowlingGame();
 		Frame frame = new Frame(0,2);	
-		addFrames(bowlingGame, frame, 10);
+		addFrames(bowlingGame, frame, 9);
 		
 	}
 	
