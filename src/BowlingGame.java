@@ -21,7 +21,7 @@ public class BowlingGame {
 	}
 	
 	// returns the score of the frame with the specified index
-	public int getFrame(int index)
+	public int getFramesScore(int index)
 	{
 		return frames.get(index).score();
 	}
