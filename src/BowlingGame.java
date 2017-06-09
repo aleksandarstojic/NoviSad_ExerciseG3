@@ -35,6 +35,6 @@ public class BowlingGame {
 			score += f.score();
 		}
 		
-		return 0;
+		return score;
 	}
 }
