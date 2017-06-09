@@ -9,7 +9,7 @@ public class TestBowling {
 	public void TestIfScoreIsCorrect() {
 		Frame frame = new Frame(3,5);
 		int actual = frame.score();
-		int expected = 8; 		// score 3 in first throw + 5 in second
+		int expected = 8; 	// score 3 in first throw + 5 in second
 		assertEquals(actual, expected);
 	}
 	
