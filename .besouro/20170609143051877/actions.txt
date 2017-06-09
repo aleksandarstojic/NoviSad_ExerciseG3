@@ -247,3 +247,6 @@ EditAction 1497015412465 TestBowling.java 3653 10 51 8
 EditAction 1497015416621 TestBowling.java 3653 10 51 8
 EditAction 1497015509298 BowlingGame.java 1234 6 7 0
 EditAction 1497015562520 BowlingGame.java 1338 6 7 0
+UnitTestCaseAction 1497015567631 TestBowling.java OK
+UnitTestSessionAction 1497015567631 TestBowling.java OK
+EditAction 1497015572459 TestBowling.java 3653 10 51 8
