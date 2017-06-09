@@ -8,17 +8,7 @@ public class TestBowling {
 	public void AddingTheFrameTest() {
 		BowlingGame bowlingGame = new BowlingGame();
 		Frame frame = new Frame();
-		
-		bowlingGame.addFrame(frame);
-		bowlingGame.addFrame(frame);
-		bowlingGame.addFrame(frame);
-		bowlingGame.addFrame(frame);
-		bowlingGame.addFrame(frame);
-		bowlingGame.addFrame(frame);
-		bowlingGame.addFrame(frame);
-		bowlingGame.addFrame(frame);
-		bowlingGame.addFrame(frame);
-		bowlingGame.addFrame(frame);
+		addFrames(bowlingGame, frame);
 	}
 	
 	
