@@ -60,7 +60,7 @@ public class BowlingGame {
 				score = score + frames.get(i).getFirstThrow();
 		}
 		*/
-	///// NISAM STIGAO DA REALIZUJEM SABIRANJE SA BONUSIMA
+		///// NISAM STIGAO DA REALIZUJEM SABIRANJE SA BONUSIMA
 		
 		for(Frame f : frames)
 		{
