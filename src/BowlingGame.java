@@ -43,10 +43,17 @@ public class BowlingGame {
 		
 		int score = 0;
 		
+		for(int i = 0; i < frames.size(); i++)
+		{
+			score += frames.get(i).score();
+		}
+		
+		
+		/*
 		for(Frame f : frames)
 		{
 			score += f.score();
-		}
+		}*/
 		
 		return score;
 	}
