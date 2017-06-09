@@ -39,9 +39,9 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void TestIfTheScoreIsCalculatedCorrectly() {
+	public void TestIfTheScoreIsCalculatedCorrectly() throws BowlingException {
 		BowlingGame bowlingGame = new BowlingGame();
-		Frame frame = new Frame();	
+		Frame frame = new Frame(1,2);	
 		addFrames(bowlingGame, frame, 15);
 	}
 	/// BOWLING GAME TESTS ///
