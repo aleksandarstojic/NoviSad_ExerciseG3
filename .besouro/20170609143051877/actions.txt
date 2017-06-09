@@ -186,3 +186,5 @@ RefactoringAction 1497014291589 TestBowling.java ADD void TestIfTheFrameIsReturn
 CompilationAction 1497014304064 TestBowling.java
 CompilationAction 1497014304243 TestBowling.java
 EditAction 1497014318624 TestBowling.java 2495 9 37 5
+CompilationAction 1497014320599 TestBowling.java
+EditAction 1497014325207 TestBowling.java 2495 9 37 5

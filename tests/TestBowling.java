@@ -52,10 +52,10 @@ public class TestBowling {
 	public void TestIfTheFramesScoreIsReturnedProperly() throws BowlingException {
 		BowlingGame bowlingGame = new BowlingGame();
 		Frame frame = new Frame(0,2);	
-		addFrames(bowlingGame, frame, 8);
+		addFrames(bowlingGame, frame, 9);
 		Frame frame1 = new Frame (10,0);
 		bowlingGame.addFrame(frame1);
-		int actual = bowlingGame.getFramesScore(8);
+		int actual = bowlingGame.getFramesScore(9);
 		int expected = 10; // because I want the last frame's score and it should be 10 because I've instantiated it with score 10
 		assertEquals(actual, expected);
 	}
