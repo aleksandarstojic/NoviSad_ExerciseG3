@@ -67,10 +67,10 @@ public class TestBowling {
 		addFrames(bowlingGame, frame, 9);
 		Frame frame1 = new Frame (5,5);
 		bowlingGame.addFrame(frame1);
-		Frame testFrame = bowlingGame.getFrame(9);
-		int actual = testFrame.score();
-		int expected = 10;
-		assertEquals(actual, expected);
+		Frame testFrame = bowlingGame.getFrame(9); // Returnig the last frame in the game and storing it into a Frame variable
+		int actual = testFrame.score();				// Using the frame's score function to determine whether the frame is returned correctly
+		int expected = 10;							// i.e. the two scores are the same (in this case (test) it should be 10 (because the frame was instatiated
+		assertEquals(actual, expected);				// with (5,5)
 	}
 	
 	@Test
