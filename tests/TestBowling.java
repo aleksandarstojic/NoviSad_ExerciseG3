@@ -83,6 +83,14 @@ public class TestBowling {
 		boolean check = bowlingGame.getFrame(9).isSpare();	// This should be true because we have instantiated the last frame with the (6,4) score
 		assertTrue(check);									// which is a Spare
 	}
+	
+	@Test
+	public void TestIfThereIsABonusThrow_Strike() throws BowlingException {
+		BowlingGame bowlingGame = new BowlingGame();
+		Frame frame = new Frame(0,2);	
+		addFrames(bowlingGame, frame, 9);
+		Frame frame1 = new Frame(6,4);
+		bowlingGame.addFrame(frame1);
 	/// BOWLING GAME TESTS ///
 	
 	
