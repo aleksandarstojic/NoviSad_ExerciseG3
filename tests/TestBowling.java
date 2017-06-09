@@ -29,7 +29,7 @@ public class TestBowling {
 	@Test
 	public void TestIfItIsAStrike() {
 		Frame frame = new Frame(10,0);
-		boolean check = frame.isSpare();
+		boolean check = frame.isStrike();
 		assertTrue(check);
 	}
 	
