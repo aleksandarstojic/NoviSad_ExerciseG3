@@ -181,3 +181,8 @@ RefactoringAction 1497014252395 BowlingGame.java RENAME getFrame(int)=>int getFr
 EditAction 1497014257628 TestBowling.java 2217 8 32 5
 CompilationAction 1497014259567 TestBowling.java
 EditAction 1497014266175 BowlingGame.java 1025 5 5 0
+CompilationAction 1497014268053 TestBowling.java
+RefactoringAction 1497014291589 TestBowling.java ADD void TestIfTheFrameIsReturnedProperly() METHOD
+CompilationAction 1497014304064 TestBowling.java
+CompilationAction 1497014304243 TestBowling.java
+EditAction 1497014318624 TestBowling.java 2495 9 37 5
