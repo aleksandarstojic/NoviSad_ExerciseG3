@@ -27,7 +27,8 @@ public class BowlingGame {
 	
 	// Returns the game score
 	public int score(){
-		//to be implemented: should return game score 
+		
+		for(Frame f : frames)
 		return 0;
 	}
 }
