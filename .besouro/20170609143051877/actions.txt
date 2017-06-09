@@ -208,3 +208,4 @@ RefactoringAction 1497014700157 TestBowling.java RENAME TestIfThereIsABonusThrow
 EditAction 1497014703454 TestBowling.java 2918 9 40 6
 EditAction 1497014808110 TestBowling.java 2984 9 42 6
 EditAction 1497014834628 TestBowling.java 3060 9 44 7
+EditAction 1497014838316 TestBowling.java 3057 9 44 7
