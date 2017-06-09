@@ -51,7 +51,8 @@ public class TestBowling {
 	@Test
 	public void TestIfThereIsABonusThrow() {
 		BowlingGame bowlingGame = new BowlingGame();
-		
+		Frame frame = new Frame(0,2);	
+		addFrames(bowlingGame, frame, 10);
 	}
 	/// BOWLING GAME TESTS ///
 	

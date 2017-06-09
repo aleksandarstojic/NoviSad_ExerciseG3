@@ -130,3 +130,4 @@ UnitTestSessionAction 1497013712812 TestBowling.java OK
 RefactoringAction 1497013794867 TestBowling.java ADD void TestIfThereIsA FIELD
 RefactoringAction 1497013798379 TestBowling.java RENAME TestIfThereIsA=>void TestIfThereIsABonusThrow() METHOD
 EditAction 1497013812345 TestBowling.java 1605 7 21 4
+EditAction 1497013823239 TestBowling.java 1673 7 23 4
