@@ -29,6 +29,7 @@ public class TestBowling {
 	/// FRAME TESTS ///
 	
 	
+	
 	/// BOWLING GAME TESTS ///
 	@Test(expected=BowlingException.class)
 	public void AddingTheFrameTest() throws BowlingException {

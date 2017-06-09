@@ -104,3 +104,4 @@ RefactoringAction 1497013200825 TestBowling.java ADD void TestIfScoreIsCorrect()
 RefactoringAction 1497013200827 TestBowling.java ADD void TestIfItIsASpare() METHOD
 RefactoringAction 1497013200828 TestBowling.java ADD void TestIfItIsAStrike() METHOD
 EditAction 1497013229353 TestBowling.java 1117 5 14 3
+EditAction 1497013232860 TestBowling.java 1120 5 14 3
