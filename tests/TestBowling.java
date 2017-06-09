@@ -9,6 +9,7 @@ public class TestBowling {
 		BowlingGame bowlingGame = new BowlingGame();
 		Frame frame = new Frame();
 		addFrames(bowlingGame, frame);
+		
 	}
 	
 	
