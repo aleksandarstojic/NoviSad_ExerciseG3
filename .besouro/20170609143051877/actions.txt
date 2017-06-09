@@ -135,3 +135,4 @@ CompilationAction 1497013825125 TestBowling.java
 CompilationAction 1497013839844 TestBowling.java
 RefactoringAction 1497013874347 BowlingGame.java ADD void getFrame() METHOD
 EditAction 1497013878167 BowlingGame.java 917 5 4 0
+EditAction 1497013907190 BowlingGame.java 978 5 4 0
