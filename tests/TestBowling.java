@@ -65,10 +65,12 @@ public class TestBowling {
 		BowlingGame bowlingGame = new BowlingGame();
 		Frame frame = new Frame(0,2);	
 		addFrames(bowlingGame, frame, 9);
-		Frame frame1 = new Frame (10,0);
+		Frame frame1 = new Frame (5,5);
 		bowlingGame.addFrame(frame1);
 		Frame testFrame = bowlingGame.getFrame(9);
-		
+		int actual = testFrame.score();
+		int expected = 10;
+		assertEquals(actual, expected);
 	}
 	
 	@Test
