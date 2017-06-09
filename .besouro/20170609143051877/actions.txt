@@ -12,3 +12,5 @@ RefactoringAction 1497012069343 TestBowling.java RENAME TestIfFrameCountIs()=>vo
 RefactoringAction 1497012072353 TestBowling.java RENAME Adding()=>void AddingTheFrameTest() METHOD
 EditAction 1497012082396 TestBowling.java 195 1 1 0
 EditAction 1497012122355 TestBowling.java 257 1 3 0
+CompilationAction 1497012124369 TestBowling.java
+EditAction 1497012127811 TestBowling.java 261 1 3 0
