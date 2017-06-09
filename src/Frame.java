@@ -4,6 +4,7 @@ public class Frame {
 	
 	// Default Constructor
 	public Frame() {}
+	
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
