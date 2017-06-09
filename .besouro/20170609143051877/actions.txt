@@ -258,3 +258,8 @@ UnitTestSessionAction 1497015581330 TestBowling.java OK
 EditAction 1497015715720 BowlingGame.java 1458 6 7 0
 EditAction 1497015745050 BowlingGame.java 1553 6 7 0
 EditAction 1497015850213 BowlingGame.java 1707 6 7 0
+RefactoringAction 1497015913412 BonusFrame.java ADD BonusFrame.java CLASS
+FileOpenedAction 1497015913772 BonusFrame.java 34 0 0 0
+RefactoringAction 1497015935602 BonusFrame.java ADD int third FIELD
+RefactoringAction 1497015945242 BonusFrame.java RENAME third=>int thirdThrow FIELD
+EditAction 1497015951210 BonusFrame.java 136 1 1 0
