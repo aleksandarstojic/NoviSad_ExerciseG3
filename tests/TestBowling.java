@@ -40,7 +40,9 @@ public class TestBowling {
 	
 	@Test
 	public void TestIfTheScoreIsCalculatedCorrectly() {
-		
+		BowlingGame bowlingGame = new BowlingGame();
+		Frame frame = new Frame();	
+		addFrames(bowlingGame, frame, 15);
 	}
 	/// BOWLING GAME TESTS ///
 	

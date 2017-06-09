@@ -110,3 +110,4 @@ CompilationAction 1497013251896 TestBowling.java
 RefactoringAction 1497013267955 TestBowling.java ADD void TestIfTheScoreIsCalculatedCorrectly() METHOD
 EditAction 1497013269403 TestBowling.java 1195 6 14 3
 EditAction 1497013274285 TestBowling.java 1193 6 14 3
+EditAction 1497013281264 TestBowling.java 1306 6 17 3
