@@ -218,3 +218,9 @@ EditAction 1497014849539 TestBowling.java 3057 9 44 7
 EditAction 1497014878739 TestBowling.java 3172 9 44 7
 RefactoringAction 1497014913130 TestBowling.java ADD void TestIfThereIsABonusThrow_Spare()/2 METHOD
 EditAction 1497014918691 TestBowling.java 3443 10 44 7
+CompilationAction 1497014920660 TestBowling.java
+CompilationAction 1497014926207 TestBowling.java
+CompilationAction 1497014926379 TestBowling.java
+CompilationAction 1497014945488 TestBowling.java
+CompilationAction 1497014945659 TestBowling.java
+EditAction 1497014968249 TestBowling.java 3609 10 44 7
