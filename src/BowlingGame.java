@@ -16,6 +16,8 @@ public class BowlingGame {
 	public void addFrame(Frame frame){
 		if(frames.size() < 10)
 			frames.add(frame);
+		else
+			throw new BowlingException("Frame limit exceeded.");
 	}
 	
 	// Sets the bonus throws at the end of the game
