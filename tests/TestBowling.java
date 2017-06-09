@@ -54,6 +54,7 @@ public class TestBowling {
 		Frame frame = new Frame(0,2);	
 		addFrames(bowlingGame, frame, 9);
 		Frame frame1 = new Frame (10,0);
+		bowlingGame.addFrame(frame1);
 	}
 	
 	/*@Test
