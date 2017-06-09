@@ -13,7 +13,8 @@ public class TestBowling {
 	
 	@Test
 	public void TestIfScoreIsCorrect() {
-		Frame frame = new Frame();	
+		Frame frame = new Frame();
+		frame.score();
 	}
 	
 	
