@@ -26,6 +26,12 @@ public class TestBowling {
 		assertTrue(check);
 	}
 	
+	@Test
+	public void TestIfItIsAStrike() {
+		Frame frame = new Frame(10,0);
+		boolean check = frame.isSpare();
+		assertTrue(check);
+	}
 	
 	
 	

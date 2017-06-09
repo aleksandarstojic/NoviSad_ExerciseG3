@@ -74,3 +74,8 @@ EditAction 1497012975899 TestBowling.java 869 4 11 2
 UnitTestCaseAction 1497012979586 TestBowling.java FAIL
 UnitTestSessionAction 1497012979588 TestBowling.java FAIL
 EditAction 1497012986212 TestBowling.java 868 4 11 2
+UnitTestCaseAction 1497012989064 TestBowling.java OK
+UnitTestSessionAction 1497012989066 TestBowling.java OK
+RefactoringAction 1497013006572 TestBowling.java ADD void TestIfItIs FIELD
+RefactoringAction 1497013011085 TestBowling.java RENAME TestIfItIs=>void TestIfItIsAStrike() METHOD
+EditAction 1497013020085 TestBowling.java 1008 5 14 3
