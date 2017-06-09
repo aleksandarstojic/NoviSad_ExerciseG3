@@ -97,3 +97,10 @@ CompilationAction 1497013158224 Frame.java
 EditAction 1497013163089 Frame.java 868 7 8 0
 CompilationAction 1497013165975 Frame.java
 EditAction 1497013166628 Frame.java 870 7 8 0
+RefactoringAction 1497013198310 TestBowling.java REMOVE TestIfItIsAStrike() METHOD
+RefactoringAction 1497013198311 TestBowling.java REMOVE TestIfScoreIsCorrect() METHOD
+RefactoringAction 1497013198313 TestBowling.java REMOVE TestIfItIsASpare() METHOD
+RefactoringAction 1497013200825 TestBowling.java ADD void TestIfScoreIsCorrect() METHOD
+RefactoringAction 1497013200827 TestBowling.java ADD void TestIfItIsASpare() METHOD
+RefactoringAction 1497013200828 TestBowling.java ADD void TestIfItIsAStrike() METHOD
+EditAction 1497013229353 TestBowling.java 1117 5 14 3

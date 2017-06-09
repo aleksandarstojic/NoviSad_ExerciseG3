@@ -4,13 +4,7 @@ import org.junit.Test;
 
 public class TestBowling {
 
-	@Test(expected=BowlingException.class)
-	public void AddingTheFrameTest() throws BowlingException {
-		BowlingGame bowlingGame = new BowlingGame();
-		Frame frame = new Frame();	
-		addFrames(bowlingGame, frame, 15);
-	}
-	
+	/// FRAME TESTS ///
 	@Test
 	public void TestIfScoreIsCorrect() {
 		Frame frame = new Frame(3,5);
@@ -32,6 +26,18 @@ public class TestBowling {
 		boolean check = frame.isStrike();
 		assertTrue(check);
 	}
+	/// FRAME TESTS ///
+	
+	
+	/// BOWLING GAME TESTS ///
+	@Test(expected=BowlingException.class)
+	public void AddingTheFrameTest() throws BowlingException {
+		BowlingGame bowlingGame = new BowlingGame();
+		Frame frame = new Frame();	
+		addFrames(bowlingGame, frame, 15);
+	}
+	/// BOWLING GAME TESTS ///
+	
 	
 	
 	
