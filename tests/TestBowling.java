@@ -92,7 +92,8 @@ public class TestBowling {
 		Frame frame1 = new Frame(10, 0);
 		bowlingGame.addFrame(frame1);
 		boolean check = bowlingGame.getFrame(9).isStrike(); // This should be true because we have instatiated the las frame with the (10,0) score
-		assertTrue(check);									// which is a Strike
+		assertTrue(check);								// which is a Strike
+	}
 	/// BOWLING GAME TESTS ///
 	
 	
