@@ -41,10 +41,10 @@ public class TestBowling {
 	@Test
 	public void TestIfTheScoreIsCalculatedCorrectly() throws BowlingException {
 		BowlingGame bowlingGame = new BowlingGame();
-		Frame frame = new Frame(1,2);	
+		Frame frame = new Frame(0,2);	
 		addFrames(bowlingGame, frame, 10);
 		int actual = bowlingGame.score();
-		int expected = 30; // 10 frames, 3 points each
+		int expected = 20; // 10 frames, 3 points each
 		assertEquals(actual, expected);
 	}
 	/// BOWLING GAME TESTS ///
