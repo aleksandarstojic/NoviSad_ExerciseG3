@@ -177,3 +177,5 @@ CompilationAction 1497014196811 TestBowling.java
 CompilationAction 1497014238548 TestBowling.java
 CompilationAction 1497014238550 TestBowling.java
 EditAction 1497014242432 TestBowling.java 2211 8 32 5
+RefactoringAction 1497014252395 BowlingGame.java RENAME getFrame(int)=>int getFramesScore(int) METHOD
+EditAction 1497014257628 TestBowling.java 2217 8 32 5
