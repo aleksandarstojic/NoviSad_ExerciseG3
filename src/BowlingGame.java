@@ -49,6 +49,8 @@ public class BowlingGame {
 			
 			if(frames.get(i).isStrike() && i <= 7)
 				score = score + frames.get(i+1).score() + frames.get(i+2).score();
+			else if (frames.get(i).isStrike() && i == 8)
+				score = score + frames.get(i+1).score();
 		}
 		
 		
