@@ -17,3 +17,6 @@ EditAction 1497012127811 TestBowling.java 261 1 3 0
 CompilationAction 1497012129802 TestBowling.java
 EditAction 1497012184525 Frame.java 716 7 7 0
 EditAction 1497012188926 Frame.java 719 7 7 0
+RefactoringAction 1497012220350 TestBowling.java ADD void addFrames() METHOD
+RefactoringAction 1497012225369 TestBowling.java RENAME addFrames()=>void addFrames(Frame) METHOD
+EditAction 1497012235480 TestBowling.java 640 2 12 0

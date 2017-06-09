@@ -10,6 +10,18 @@ public class TestBowling {
 		Frame frame = new Frame();
 		
 		bowlingGame.addFrame(frame);
+		bowlingGame.addFrame(frame);
+		bowlingGame.addFrame(frame);
+		bowlingGame.addFrame(frame);
+		bowlingGame.addFrame(frame);
+		bowlingGame.addFrame(frame);
+		bowlingGame.addFrame(frame);
+		bowlingGame.addFrame(frame);
+		bowlingGame.addFrame(frame);
+		bowlingGame.addFrame(frame);
 	}
-
+	
+	
+	/// HELPER METHODS ///
+	public void addFrames(BowlingGame bowlingGame, Frame frame)
 }
