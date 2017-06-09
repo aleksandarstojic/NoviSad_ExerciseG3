@@ -57,6 +57,7 @@ public class TestBowling {
 		bowlingGame.addFrame(frame1);
 		int actual = bowlingGame.getFrame();
 		int expected = 10 // because I want the last frame's score and it should be 10
+		assertEquals(actual, expected);
 	}
 	
 	/*@Test
