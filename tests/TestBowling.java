@@ -77,7 +77,9 @@ public class TestBowling {
 	public void TestIfThereIsABonusThrow_Spare() throws BowlingException {
 		BowlingGame bowlingGame = new BowlingGame();
 		Frame frame = new Frame(0,2);	
-		addFrames(bowlingGame, frame, 10);
+		addFrames(bowlingGame, frame, 9);
+		Frame frame1 = new Frame(6,4);
+		bowlingGame.addFrame(frame1);
 		
 	}
 	/// BOWLING GAME TESTS ///
