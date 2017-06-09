@@ -20,10 +20,16 @@ public class BowlingGame {
 			throw new BowlingException("Frame limit exceeded.");
 	}
 	
-	// returns the score of the frame with the specified index
+	// returns the score of the frame at the specified index
 	public int getFramesScore(int index)
 	{
 		return frames.get(index).score();
+	}
+	
+	// returns the frame at the specified index
+	public Frame getFrame(int index)
+	{
+		
 	}
 	
 	// Sets the bonus throws at the end of the game

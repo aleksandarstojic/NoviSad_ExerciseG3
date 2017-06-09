@@ -188,3 +188,9 @@ CompilationAction 1497014304243 TestBowling.java
 EditAction 1497014318624 TestBowling.java 2495 9 37 5
 CompilationAction 1497014320599 TestBowling.java
 EditAction 1497014325207 TestBowling.java 2495 9 37 5
+CompilationAction 1497014327055 TestBowling.java
+CompilationAction 1497014358385 TestBowling.java
+CompilationAction 1497014358606 TestBowling.java
+RefactoringAction 1497014373043 BowlingGame.java ADD Frame getFrame FIELD
+RefactoringAction 1497014379058 BowlingGame.java RENAME getFrame=>Frame getFrame(int) METHOD
+EditAction 1497014392715 BowlingGame.java 1119 6 5 0

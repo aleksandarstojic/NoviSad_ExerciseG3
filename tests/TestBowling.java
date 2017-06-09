@@ -67,6 +67,7 @@ public class TestBowling {
 		addFrames(bowlingGame, frame, 9);
 		Frame frame1 = new Frame (10,0);
 		bowlingGame.addFrame(frame1);
+		Frame testFrame = bowlingGame.getFrame(9);
 	}
 	
 	@Test
