@@ -13,9 +13,10 @@ public class TestBowling {
 	
 	@Test
 	public void TestIfScoreIsCorrect() {
-		Frame frame = new Frame();
+		Frame frame = new Frame(3,5);
 		int actual = frame.score();
 		int expected = 8;
+		assertEquals(actual, expected);
 	}
 	
 	
