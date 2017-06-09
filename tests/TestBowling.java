@@ -22,6 +22,8 @@ public class TestBowling {
 	@Test
 	public void TestIfItIsASpare() {
 		Frame frame = new Frame(5,5);
+		boolean check = frame.isSpare();
+		assertEquals(check);
 	}
 	
 	
